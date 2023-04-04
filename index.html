@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="carrossel">
+    <button type="button" class="btn btn-esquerda" onclick="carrossel_esquerda()">&lt;</button>
+    <div class="chat-container">
+        <div class="chat chat-1" id="chat1">
+            <div class="chat-title" id="title1">
+                <h1>Optimus Prime</h1>
+                <h2>caminhão</h2>
+                <figure class="avatar">
+                  <img src="./assets/avatar-1.jpeg" />
+                </figure>
+              </div>
+              <div class="messages msg1">
+                <div class="messages-content"></div>
+              </div>
+              <div class="message-box">
+                <textarea type="text" class="message-input" id ='input-1' placeholder="Escreva a mensagem ..."></textarea>
+                <button type="button" class="message-submit" onclick="insertMessage(1)">Send</button>
+            </div>
+        </div>
+        <div class="chat chat-2" id="chat2">
+            <div class="chat-title" id="title2">
+                <h1>Exterminador do Futuro</h1>
+                <h2>Matador</h2>
+                <figure class="avatar">
+                  <img src="./assets/avatar-2.jpeg" />
+                </figure>
+              </div>
+              <div class="messages msg2">
+                <div class="messages-content"></div>
+              </div>
+              <div class="message-box">
+                <textarea type="text" class="message-input" id ='input-2' placeholder="Escreva a mensagem ..."></textarea>
+                <button type="button" class="message-submit" onclick="insertMessage(2)">Send</button>
+            </div>
+        </div>
+        <div class="chat chat-3" id="chat3">
+            <div class="chat-title" id="title3">
+                <h1>Robocop</h1>
+                <h2>segurança</h2>
+                <figure class="avatar">
+                  <img src="./assets/avatar-3.jpeg" />
+                </figure>
+              </div>
+              <div class="messages msg3">
+                <div class="messages-content"></div>
+              </div>
+              <div class="message-box">
+                <textarea type="text" class="message-input" id ='input-3' placeholder="Escreva a mensagem ..."></textarea>
+                <button type="button" class="message-submit" onclick="insertMessage(3)">Send</button>
+            </div>
+        </div>
+         <div class="chat chat-4" id="chat4">
+          <div class="chat-title" id="title4">
+              <h1>Ultron</h1>
+              <h2>conquistador</h2>
+              <figure class="avatar">
+                <img src="./assets/avatar-4.jpeg" />
+              </figure>
+          </div>
+          <div class="messages msg4">
+            <div class="messages-content"></div>
+          </div>
+          <div class="message-box">
+              <textarea type="text" class="message-input" id ='input-4' placeholder="Escreva a mensagem ..."></textarea>
+              <button type="button" class="message-submit" onclick="insertMessage(4)">Send</button>
+          </div>
+        </div>
+        <div class="chat chat-5" id="chat5">
+            <div class="chat-title" id="title5">
+                <h1>R2D2</h1>
+                <h2>COMPANHEIRO</h2>
+                <figure class="avatar">
+                  <img src="./assets/avatar-5.jpeg" />
+                </figure>
+              </div>
+              <div class="messages msg5">
+                <div class="messages-content"></div>
+              </div>
+              <div class="message-box">
+                <textarea type="text" class="message-input" id ='input-5' placeholder="Escreva a mensagem ..."></textarea>
+                <button type="button" class="message-submit" onclick="insertMessage(5)">Send</button>
+            </div>
+        </div>
+        </div>
+        <button type="button" class="btn btn-direita" onclick="carrossel_direita()">&gt;</button>
+      </div>
+    <div class="bg"></div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
